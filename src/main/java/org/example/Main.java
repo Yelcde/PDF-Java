@@ -22,6 +22,8 @@ public class Main {
 
         Relatorio relatorioSimples = new RelatorioPDFSimples(venda);
         relatorioSimples.gerarCabecalho();
+        relatorioSimples.gerarCorpo();
+        relatorioSimples.gerarRodape();
         relatorioSimples.imprimir();
     }
 }
